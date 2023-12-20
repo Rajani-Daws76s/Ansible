@@ -1,0 +1,13 @@
+command to connect from ansible server to node server
+ ansible -i 3.90.88.43, all -e ansible_user=centos -e ansible_password=DevOps321 -m ping
+
+command to install package
+sshpass -p "DevOps321" ssh centos@3.90.88.43 -C "curl https://raw.githubusercontent.com/daws-76s/shell-script/main/09-install-mysql.sh | sudo bash "
+
+command to create frile from ansible server to node
+sshpass -p "DevOps321" ssh centos@3.90.88.43 -C "echo Hello > /tmp/hello.txt"    
+
+command to install nginx
+ ansible -i 3.90.88.43, all -e ansible_user=centos -e ansible_password=DevOps321 --become -m yum -a "name=nginx state=present"
+(--become is using for root user access)
+
