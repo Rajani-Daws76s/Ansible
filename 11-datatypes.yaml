@@ -1,17 +1,17 @@
+
 - name: checking data types
   hosts: localhost
   Vars:
     name: Rajani (which is key value pair)
     skill: (which is a list)
-    - aws
-    - linux
-    - devops
-    - terraform
+    - DevOps
+    - Shell
+    - ANsible
+    - Linux
     experince: (which is a map)
-      devops: 6 
-      aws: 3 
-      linux: 2 
-      terraform: 2 
+      DevOps: 7
+      AWS: 6
+      Docker: 4
     trainer: true (boolean)
   task:
   - name: print key value pair
