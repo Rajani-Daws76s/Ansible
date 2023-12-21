@@ -1,4 +1,4 @@
-play book is list of play
+# play book is list of play
 
 - name: PLAY1
   host: localhost
@@ -10,5 +10,5 @@ play book is list of play
   - name: play2 and task2
     ansible.builtin.debug:
     Msg: "Hello from PLAY-2 and TASK-2"
-    
+
    
