@@ -1,6 +1,14 @@
 192.10.10.10
 192.10.30.10
 
+[localhost]
+localhost
+
+[localhost:vars]
+course="Devops with shiva from inventory"
+Trainer="Shivasir"
+Duration="110 hrs"
+
 [web]
 3.90.88.43
 

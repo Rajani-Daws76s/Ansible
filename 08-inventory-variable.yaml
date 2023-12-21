@@ -1,0 +1,7 @@
+#inventory variables
+-name: playbook for variable
+  hosts: localhost
+  tasks:
+  - name: task for variable declaration at inventory
+    ansible.builtin.debug:
+      msg: "i'm learning {{course}} teaching by expert {{trainer}} with {{duration}}" 
