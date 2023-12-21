@@ -1,5 +1,5 @@
 #inventory variables
--name: playbook for variable
+- name: playbook for variable
   hosts: localhost
   tasks:
   - name: task for variable declaration at inventory
