@@ -8,10 +8,10 @@
     -devops
     -terraform
     experince: (which is a map)
-      devops: 6 yeras
-      aws: 3 years
-      linux: 2 years
-      terraform: 2 years
+      devops: 6 
+      aws: 3 
+      linux: 2 
+      terraform: 2 
     trainer: true (boolean)
   task:
   - name: print key value pair
