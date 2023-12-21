@@ -4,6 +4,7 @@
   - name: print packages
     ansible.builtin.package:
       msg: " {{item}}"
+      state: present
     loop:
     - git
     - postfix
