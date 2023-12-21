@@ -7,8 +7,6 @@
     ansible.builtin.debug:
       msg: "Hello from PLAY-1 and TASK-1"
 
-  - name: play2 and task2
-    ansible.builtin.debug:
-      Msg: "Hello from PLAY-2 and TASK-2"
+
 
    
