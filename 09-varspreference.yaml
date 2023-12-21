@@ -1,10 +1,7 @@
-- name: variable preference
-  host: localhost
-  task: task1 for promting variable
-  - name: USERNAME
-    prompt: "Enter user name"
-    private: false
-  - name: PASSWORD
-    prompt: "enter password"
-    private: false
-  
+# variable prompting 
+- name: variable from play level
+  hosts: localhost
+  tasks: 
+  - name : check the values
+    ansible.builtin.debug:
+      msg: " Hello {{person}} and {{wishes}}"
