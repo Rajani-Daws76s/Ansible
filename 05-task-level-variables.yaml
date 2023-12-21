@@ -1,7 +1,7 @@
 #play level variables
-- 
 
-name: playbook for variable
+
+- name: playbook for variable
   hosts: localhost
   vars: 
    course: "devops"
