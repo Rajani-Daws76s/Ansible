@@ -11,3 +11,4 @@ command to install nginx
  ansible -i 3.90.88.43, all -e ansible_user=centos -e ansible_password=DevOps321 --become -m yum -a "name=nginx state=present"
 (--become is using for root user access)
 
+***task level variables can be override from play level, which is called inheritance

@@ -9,5 +9,7 @@ name: playbook for variable
    duration: "110hrs"
   tasks:
   - name: task for variable declaration
+    vars:
+     course: "java"
     ansible.builtin.debug:
       msg: "i'm learning {{course}} teaching by expert {{trainer}} with {{duration}}" 
