@@ -1,0 +1,35 @@
+- name: playbook for datatypes
+  host: localhost
+  Vars:
+  - name: Rajani (which is key value pair)
+    skill: (which is a list)
+    -aws
+    -linux
+    -devops
+    -terraform
+    experince: (which is a map)
+      devops: 6 yeras
+      aws: 3 years
+      linux: 2 years
+      terraform: 2 years
+    trainer: true (boolean)
+  task:
+  - name: print key value pair
+    ansible.builtin.debug:
+      msg: "name : {{name}}"
+
+  - name: print list
+    ansible.builtin.debug:
+      msg: "Skill : {{skill}}"
+
+  - name: print map
+    ansible.builtin.debug:
+    msg: "experince : {{experince}}"
+
+  - name: print boolean
+    ansible.builtin.debug:
+    msg: "is he trainer : {{trainer}}"
+      
+
+    
+
