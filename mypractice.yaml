@@ -12,7 +12,7 @@
       aws: 3
     Trainer: true
   tasks:
-  - name: print key pair
+  - name: print key value pair
     ansible.builtin.debug:
     msg: " Name : {{Name}}"
   - name: print list
