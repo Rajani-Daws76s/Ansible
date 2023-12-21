@@ -4,4 +4,4 @@
   tasks:
   - name: task for variable declaration at inventory
     ansible.builtin.debug:
-      msg: "i'm learning {{course}} teaching by expert {{trainer}} with {{duration}}" 
+      msg: "i'm learning {{course}} teaching by expert {{Trainer}} with {{Duration}}" 
