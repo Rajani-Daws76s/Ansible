@@ -1,11 +1,9 @@
 #play level variables
--name: playbook for variable
+- name: playbook for variable
   hosts: localhost
-  vars: 
-   course: "devops"
-   trainer: "shivakumer"
-   duration: "110hrs"
+  vars_files: 
+  - variable.yaml
   tasks:
-  - name: task for variable declaration
+  - name: task for variable declaration from file side
     ansible.builtin.debug:
       msg: "i'm learning {{course}} teaching by expert {{trainer}} with {{duration}}" 

@@ -12,3 +12,8 @@ command to install nginx
 (--become is using for root user access)
 
 ***task level variables can be override from play level, which is called inheritance
+
+case1: you have declared x = 1 at play level
+ but you have declared at task level as x = 3
+ so finally x =3 will execute at script excution time
+ 
