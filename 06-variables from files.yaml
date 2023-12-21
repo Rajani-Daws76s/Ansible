@@ -6,4 +6,11 @@
   tasks:
   - name: task for variable declaration from file side
     ansible.builtin.debug:
-      msg: "i'm learning {{course}} teaching by expert {{trainer}} with {{duration}}" 
+      msg: "i'm learning {{course}} teaching by expert {{Trainer}} with {{Duration}}" 
+
+
+
+
+course: "Devops with shiva"
+Trainer: "Shivasir"
+Duration: "110 hrs"
