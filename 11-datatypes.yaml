@@ -3,10 +3,10 @@
   Vars:
   - name: Rajani (which is key value pair)
     skill: (which is a list)
-    -aws
-    -linux
-    -devops
-    -terraform
+    - aws
+    - linux
+    - devops
+    - terraform
     experince: (which is a map)
       devops: 6 
       aws: 3 
