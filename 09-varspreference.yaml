@@ -1,0 +1,10 @@
+- name: variable preference
+  host: localhost
+  task: task1 for promting variable
+  - name: USERNAME
+    prompt: "Enter user name"
+    private: false
+  - name: PASSWORD
+    prompt: "enter password"
+    private: false
+  
