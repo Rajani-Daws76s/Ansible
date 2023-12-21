@@ -4,7 +4,7 @@
    course: "devops"
    trainer: "shivakumer"
    duration: "110hrs"
-  task:
+  tasks:
   - name: task for variable declaration
     ansible.builtin.debug:
       msg: "i'm learning {{couser}} teaching by expert {{trainer}} with {{duration}}" 
